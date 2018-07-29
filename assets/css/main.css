@@ -546,6 +546,12 @@ hr.major {
   width: 16.6666666667%;
 }
 
+@media screen and (max-width: 450px) {
+  .row > .col-2 {
+    width: 25%;
+  }
+}
+
 .row > .off-2 {
   margin-left: 16.6666666667%;
 }
