@@ -546,9 +546,21 @@ hr.major {
   width: 16.6666666667%;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 800px) {
+  .row > .col-2 {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 550px) {
   .row > .col-2 {
     width: 25%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .row > .col-2 {
+    width: 33.33%;
   }
 }
 
