@@ -4209,4 +4209,8 @@ body.is-preload #banner p {
   #footer .inner {
     padding: 2em 1.5em 0.1em 1.5em;
   }
+  svg {
+    width: 90px;
+    height: 90px;
+  }
 }
